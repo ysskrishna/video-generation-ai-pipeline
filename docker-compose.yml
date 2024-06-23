@@ -1,0 +1,41 @@
+version: '3'
+
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+    links:
+      - redis
+      # TODO: Link volume to images directory
+  
+  worker:
+    build:
+      context: ./backend
+    command: ["python", "ai_engine/worker.py"]
+    depends_on:
+      - backend
+      - redis
+    links:
+      - redis
+
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #   ports:
+  #     - "3000:3000"
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: ["redis-server", "--appendonly", "yes"]
+
+volumes:
+  redis_data:
