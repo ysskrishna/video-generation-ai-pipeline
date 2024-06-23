@@ -13,6 +13,10 @@
   <source src="./media/leyline-image-video-challenge.mp4" type="video/mp4">
 </video>
 
+
+https://github.com/ysskrishna/video-generation-ai-pipeline/assets/26503640/955f6f95-b90a-4015-a406-ae941855afe2
+
+
 ## pipeline diagram
 
 <img src="./media/image-video-pipeline.JPG" alt="Video pipeline"/>
