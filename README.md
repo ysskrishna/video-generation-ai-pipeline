@@ -28,9 +28,7 @@ This diagram illustrates the workflow of the image to video generation process
 </video>
 
 
-
-
-https://github.com/ysskrishna/video-generation-ai-pipeline/assets/26503640/955f6f95-b90a-4015-a406-ae941855afe2
+https://github.com/ysskrishna/video-generation-ai-pipeline/assets/26503640/ba20afc0-acdd-4b8a-9e7a-75ecbb5af803
 
 
 ## Project Configuration
