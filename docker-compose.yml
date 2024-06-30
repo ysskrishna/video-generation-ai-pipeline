@@ -23,11 +23,11 @@ services:
     links:
       - redis
 
-  frontend:
-    build:
-      context: ./frontend
-    ports:
-      - "5173:5173"
+  # frontend:
+  #   build:
+  #     context: ./frontend
+  #   ports:
+  #     - "5173:5173"
 
   redis:
     image: "redis:latest"
