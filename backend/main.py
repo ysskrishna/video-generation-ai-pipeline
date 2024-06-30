@@ -31,10 +31,10 @@ async def serve_index():
     return """
     <html>
     <head>
-        <title>Leyline Pro</title>
+        <title>Image to Video Generator</title>
     </head>
     <body>
-        <h1>Leyline Pro API</h1>
+        <h1>Image to Video Generator API</h1>
     </body>
     </html>
     """
