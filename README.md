@@ -1,6 +1,9 @@
 # Image to Video Generation Pipeline
 A full stack application which allows users to demonstrate a image to video generation pipeline using distributed systems
 
+> **Note**: This repository is archived. Development continues at [ysskrishna/PixelMotion](https://github.com/ysskrishna/PixelMotion). Please refer to the new repository for the latest updates and contributions.
+
+
 ## Techstack used: 
 - React
 - Tailwindcss
